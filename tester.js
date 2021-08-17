@@ -7,10 +7,18 @@ process.stdin.setRawMode(true);
 let questionIndex = 0;
 let readyForNext = false;
 
-console.log('\033[2J');
-console.log("\x1b[31m%s\x1b[0m", `Question ${questionIndex + 1}`);
-console.log("\x1b[33m%s\x1b[0m", questions[questionIndex].questionText);
-questions[questionIndex].options.forEach((o, i) => console.log(o));
+const clearScreen = () => console.log('\033[2J');
+const getColorLoggerAndLog = (color) => (msg) => console.log(`${color}%s\x1b[0m`, msg);
+const logRed = (msg) => getColorLoggerAndLog('\x1b[31m')(msg);
+const logGreen = (msg) => getColorLoggerAndLog('\x1b[32m')(msg);
+const logYellow = (msg) => getColorLoggerAndLog('\x1b[33m')(msg);
+
+clearScreen();
+logRed(`Question ${questionIndex + 1}`)
+
+logYellow(questions[questionIndex].questionText);
+questions[questionIndex].options.forEach((o, i) => console.log(`${i} -> ${o.replace('\n\n', '')}`));
+
 
 process.stdin.on('keypress', function (chunk, key) {
     if (key.ctrl && key.name === 'c') {
@@ -18,18 +26,17 @@ process.stdin.on('keypress', function (chunk, key) {
     }
     if (readyForNext) {
         if (questionIndex === questions.length - 1) {
-            console.log('\033[2J');
+            clearScreen();
             console.log('nice');
             process.exit();
         }
         questionIndex++;
-        console.log('\033[2J');
+        clearScreen();
         console.log("");
-        console.log("\x1b[31m%s\x1b[0m", `Question ${questionIndex + 1}`);
-        console.log("\x1b[33m%s\x1b[0m", questions[questionIndex].questionText);
-        questions[questionIndex].options.forEach(o => {
-            console.log(o);
-        });
+        logRed(`Question ${questionIndex + 1}`);
+        logYellow(questions[questionIndex].questionText);
+        questions[questionIndex].options.forEach((o, i) => console.log(`${i} -> ${o.replace('\n\n', '')}`));
+
     } else {
         let incorrectOptionsMode = false;
 
@@ -37,12 +44,7 @@ process.stdin.on('keypress', function (chunk, key) {
             if (String(e).toLowerCase().includes("incorrect")) {
                 incorrectOptionsMode = true;
             }
-
-            if (incorrectOptionsMode) {
-                console.log("\x1b[31m%s\x1b[0m", e)
-            } else {
-                console.log("\x1b[32m%s\x1b[0m", e)
-            }
+            incorrectOptionsMode ? logRed(e) : logGreen(e);
         });
     }
 
