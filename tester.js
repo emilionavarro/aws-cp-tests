@@ -7,6 +7,22 @@ process.stdin.setRawMode(true);
 let questionIndex = 0;
 let readyForNext = false;
 
+const shuffle = (array) => {
+    let currentIndex = array.length, randomIndex;
+    // While there remain elements to shuffle...
+    while (currentIndex != 0) {
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+    }
+    return array;
+}
+
+questions = shuffle(questions);
 const clearScreen = () => console.log('\033[2J');
 const getColorLoggerAndLog = (color) => (msg) => console.log(`${color}%s\x1b[0m`, msg);
 const logRed = (msg) => getColorLoggerAndLog('\x1b[31m')(msg);
