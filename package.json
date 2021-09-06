@@ -1,0 +1,20 @@
+{
+  "name": "aws_cp_questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-ripper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tester.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilionavarro/aws-cp-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilionavarro/aws-cp-tests/issues"
+  },
+  "homepage": "https://github.com/emilionavarro/aws-cp-tests#readme"
+}

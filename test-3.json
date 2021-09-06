@@ -3,10 +3,10 @@
         "correct": "Question 1: ",
         "questionText": "Once an AWS service has been provisioned, it is expected to work uninterrupted without any network or access issues. In case of any failures, the service should recover quickly. Which pillar of the AWS Well-Architected Framework caters to this ability?",
         "options": [
-            "​\n\nSecurity",
-            "​\n\nPerformance Efficiency",
-            "​\n\nReliability",
-            "​\n\nOperational Excellence"
+            "​Security",
+            "​Performance Efficiency",
+            "​Reliability",
+            "​Operational Excellence"
         ],
         "explanation": [
             "Correct option:",
@@ -26,10 +26,10 @@
         "correct": "Question 2: ",
         "questionText": "An IT company would like to move its IT resources (including any data and applications) from an AWS Region in the US to another AWS Region in Europe. Which of the following represents the correct solution for this use-case?",
         "options": [
-            "​\n\nThe company should use Database Migration Service to move the resources (including any data and applications) from source AWS Region to destination AWS Region",
-            "​\n\nThe company should just start creating new resources in the destination AWS Region and then migrate the relevant data and applications into this new AWS Region",
-            "​\n\nThe company should raise a ticket with AWS Support for this resource migration",
-            "​\n\nThe company should use CloudFormation to move the resources (including any data and applications) from source AWS Region to destination AWS Region"
+            "​The company should use Database Migration Service to move the resources (including any data and applications) from source AWS Region to destination AWS Region",
+            "​The company should just start creating new resources in the destination AWS Region and then migrate the relevant data and applications into this new AWS Region",
+            "​The company should raise a ticket with AWS Support for this resource migration",
+            "​The company should use CloudFormation to move the resources (including any data and applications) from source AWS Region to destination AWS Region"
         ],
         "explanation": [
             "Correct option:",
@@ -44,10 +44,10 @@
         "correct": "Question 3: ",
         "questionText": "Which of the following is correct regarding the AWS Shield Advanced pricing?",
         "options": [
-            "​\n\nAWS Shield Advanced is a free service for all AWS Support plans",
-            "​\n\nAWS Shield Advanced offers protection against higher fees that could result from a DDoS attack",
-            "​\n\nAWS Shield Advanced is a free service for AWS Business Support plan",
-            "​\n\nAWS Shield Advanced is a free service for AWS Enterprise Support plan"
+            "​AWS Shield Advanced is a free service for all AWS Support plans",
+            "​AWS Shield Advanced offers protection against higher fees that could result from a DDoS attack",
+            "​AWS Shield Advanced is a free service for AWS Business Support plan",
+            "​AWS Shield Advanced is a free service for AWS Enterprise Support plan"
         ],
         "explanation": [
             "Correct option:",
@@ -67,11 +67,11 @@
         "correct": "Question 4: ",
         "questionText": "Which of the following are components of an AWS Site-to-Site VPN? (Select two)",
         "options": [
-            "​\n\nVirtual Private Gateway",
-            "​\n\nStorage Gateway",
-            "​\n\nInternet Gateway",
-            "​\n\nCustomer Gateway",
-            "​\n\nNAT Gateway"
+            "​Virtual Private Gateway",
+            "​Storage Gateway",
+            "​Internet Gateway",
+            "​Customer Gateway",
+            "​NAT Gateway"
         ],
         "explanation": [
             "Correct option:",
@@ -92,10 +92,10 @@
         "correct": "Question 5: ",
         "questionText": "Which AWS Support plan guarantees a case response time of 15 minutes when Business Critical systems are down?",
         "options": [
-            "​\n\nBusiness",
-            "​\n\nDeveloper",
-            "​\n\nEnterprise",
-            "​\n\nBasic"
+            "​Business",
+            "​Developer",
+            "​Enterprise",
+            "​Basic"
         ],
         "explanation": [
             "Correct option:",
@@ -120,11 +120,11 @@
         "correct": "Question 6: ",
         "questionText": "Which of the following are correct statements regarding the AWS Shared Responsibility Model? (Select two)",
         "options": [
-            "​\n\nAWS is responsible for training AWS and customer employees on AWS products and services",
-            "​\n\nFor abstracted services like Amazon S3, AWS operates the infrastructure layer, the operating system, and platforms",
-            "​\n\nFor a service like Amazon EC2, that falls under Infrastructure as a Service, AWS is responsible for maintaining guest operating system",
-            "​\n\nConfiguration Management is the responsibility of the customer",
-            "​\n\nAWS is responsible for Security \"of\" the Cloud"
+            "​AWS is responsible for training AWS and customer employees on AWS products and services",
+            "​For abstracted services like Amazon S3, AWS operates the infrastructure layer, the operating system, and platforms",
+            "​For a service like Amazon EC2, that falls under Infrastructure as a Service, AWS is responsible for maintaining guest operating system",
+            "​Configuration Management is the responsibility of the customer",
+            "​AWS is responsible for Security \"of\" the Cloud"
         ],
         "explanation": [
             "Correct options:",
@@ -144,10 +144,10 @@
         "correct": "Question 7: ",
         "questionText": "Amazon Macie discovers and protects your sensitive data on which of the following AWS services?",
         "options": [
-            "​\n\nAmazon Simple Storage Service (Amazon S3)",
-            "​\n\nAWS Storage Gateway",
-            "​\n\nAmazon Elastic Block Store (Amazon EBS)",
-            "​\n\nAmazon Elastic File System (Amazon EFS)"
+            "​Amazon Simple Storage Service (Amazon S3)",
+            "​AWS Storage Gateway",
+            "​Amazon Elastic Block Store (Amazon EBS)",
+            "​Amazon Elastic File System (Amazon EFS)"
         ],
         "explanation": [
             "Correct option:",
@@ -165,11 +165,11 @@
         "correct": "Question 8: ",
         "questionText": "Which of the following statements are true about Cost Allocation Tags in AWS Billing? (Select two)",
         "options": [
-            "​\n\nTags helps in organizing resources and are a mandatory configuration item to run reports",
-            "​\n\nOnly user-defined tags need to be activated before they can appear in Cost Explorer or on a cost allocation report",
-            "​\n\nYou must activate both AWS generated tags and user-defined tags separately before they can appear in Cost Explorer or on a cost allocation report",
-            "​\n\nFor each resource, each tag key must be unique, but can have multiple values",
-            "​\n\nFor each resource, each tag key must be unique, and each tag key can have only one value"
+            "​Tags helps in organizing resources and are a mandatory configuration item to run reports",
+            "​Only user-defined tags need to be activated before they can appear in Cost Explorer or on a cost allocation report",
+            "​You must activate both AWS generated tags and user-defined tags separately before they can appear in Cost Explorer or on a cost allocation report",
+            "​For each resource, each tag key must be unique, but can have multiple values",
+            "​For each resource, each tag key must be unique, and each tag key can have only one value"
         ],
         "explanation": [
             "Correct options:",
@@ -190,10 +190,10 @@
         "correct": "Question 9: ",
         "questionText": "Which of the following is a part of the AWS Global Infrastructure?",
         "options": [
-            "​\n\nSubnets",
-            "​\n\nRegion",
-            "​\n\nVirtual Private Cloud (VPC)",
-            "​\n\nVirtual Private Network (VPN)"
+            "​Subnets",
+            "​Region",
+            "​Virtual Private Cloud (VPC)",
+            "​Virtual Private Network (VPN)"
         ],
         "explanation": [
             "Correct option:",
@@ -213,10 +213,10 @@
         "correct": "Question 10: ",
         "questionText": "Which of the following AWS entities provides the information required to launch an EC2 instance?",
         "options": [
-            "​\n\nEFS",
-            "​\n\nLambda",
-            "​\n\nEBS",
-            "​\n\nAMI"
+            "​EFS",
+            "​Lambda",
+            "​EBS",
+            "​AMI"
         ],
         "explanation": [
             "Correct option:",
@@ -239,10 +239,10 @@
         "correct": "Question 11: ",
         "questionText": "Which of the following statements is correct regarding the AWS Elastic File System (EFS) storage service?",
         "options": [
-            "​\n\nEC2 instances can access files on an EFS file system across many Availability Zones but not across VPCs and Regions",
-            "​\n\nEC2 instances can access files on an EFS file system only in one Availability Zone",
-            "​\n\nEC2 instances can access files on an EFS file system across many Availability Zones, Regions and VPCs",
-            "​\n\nEC2 instances can access files on an EFS file system across many Availability Zones and VPCs but not across Regions"
+            "​EC2 instances can access files on an EFS file system across many Availability Zones but not across VPCs and Regions",
+            "​EC2 instances can access files on an EFS file system only in one Availability Zone",
+            "​EC2 instances can access files on an EFS file system across many Availability Zones, Regions and VPCs",
+            "​EC2 instances can access files on an EFS file system across many Availability Zones and VPCs but not across Regions"
         ],
         "explanation": [
             "Correct option:",
@@ -262,10 +262,10 @@
         "correct": "Question 12: ",
         "questionText": "A medical device company is looking for a durable and cost-effective way of storing their historic data. Due to compliance requirements, the data must be stored for 10 years. Which AWS Storage solution will you suggest?",
         "options": [
-            "​\n\nS3 Glacier Deep Archive",
-            "​\n\nS3 Glacier",
-            "​\n\nAWS Storage Gateway",
-            "​\n\nAmazon EFS"
+            "​S3 Glacier Deep Archive",
+            "​S3 Glacier",
+            "​AWS Storage Gateway",
+            "​Amazon EFS"
         ],
         "explanation": [
             "Correct option:",
@@ -284,10 +284,10 @@
         "correct": "Question 13: ",
         "questionText": "Gmail is an example of which of the following Cloud Computing Models?",
         "options": [
-            "​\n\nSoftware as a Service (SaaS)",
-            "​\n\nInfrastructure as a Service (IaaS)",
-            "​\n\nPlatform as a Service (PaaS)",
-            "​\n\nFunction as a Service (FaaS)"
+            "​Software as a Service (SaaS)",
+            "​Infrastructure as a Service (IaaS)",
+            "​Platform as a Service (PaaS)",
+            "​Function as a Service (FaaS)"
         ],
         "explanation": [
             "Correct option:",
@@ -306,10 +306,10 @@
         "correct": "Question 14: ",
         "questionText": "A financial services enterprise plans to enable Multi-Factor Authentication (MFA) for its employees. For ease of travel, they prefer not to use any physical devices to implement MFA. Which of the below options is best suited for this use case?",
         "options": [
-            "​\n\nSoft Token MFA device",
-            "​\n\nU2F security key",
-            "​\n\nHardware MFA device",
-            "​\n\nVirtual MFA device"
+            "​Soft Token MFA device",
+            "​U2F security key",
+            "​Hardware MFA device",
+            "​Virtual MFA device"
         ],
         "explanation": [
             "Correct option:",
@@ -328,10 +328,10 @@
         "correct": "Question 15: ",
         "questionText": "Which of the following capabilities does Amazon Rekognition provide as a ready-to-use feature?",
         "options": [
-            "​\n\nResize images quickly",
-            "​\n\nIdentify objects in a photo",
-            "​\n\nHuman pose detection",
-            "​\n\nConvert images into greyscale"
+            "​Resize images quickly",
+            "​Identify objects in a photo",
+            "​Human pose detection",
+            "​Convert images into greyscale"
         ],
         "explanation": [
             "Correct option:",
@@ -352,10 +352,10 @@
         "correct": "Question 16: ",
         "questionText": "A startup wants to set up its IT infrastructure on AWS Cloud. The CTO would like to receive detailed reports that break down the startup's AWS costs by the hour in an S3 bucket. As a Cloud Practitioner, which AWS service would you recommend for this use-case?",
         "options": [
-            "​\n\nAWS Budgets",
-            "​\n\nAWS Cost and Usage Reports",
-            "​\n\nAWS Total Cost of Ownership (TCO) Calculator",
-            "​\n\nAWS Cost Explorer"
+            "​AWS Budgets",
+            "​AWS Cost and Usage Reports",
+            "​AWS Total Cost of Ownership (TCO) Calculator",
+            "​AWS Cost Explorer"
         ],
         "explanation": [
             "Correct option:",
@@ -380,11 +380,11 @@
         "correct": "Question 17: ",
         "questionText": "Data encryption is automatically enabled for which of the following AWS services? (Select two)?",
         "options": [
-            "​\n\nAmazon Redshift",
-            "​\n\nAmazon EBS volumes",
-            "​\n\nAmazon EFS drives",
-            "​\n\nAmazon S3 Glacier",
-            "​\n\nAWS Storage Gateway"
+            "​Amazon Redshift",
+            "​Amazon EBS volumes",
+            "​Amazon EFS drives",
+            "​Amazon S3 Glacier",
+            "​AWS Storage Gateway"
         ],
         "explanation": [
             "Correct option:",
@@ -403,10 +403,10 @@
         "correct": "Question 18: ",
         "questionText": "Which of the following improves the availability for a fleet of EC2 instances?",
         "options": [
-            "​\n\nDeploy the EC2 instances in the same Availability Zone of an AWS Region",
-            "​\n\nDeploy the EC2 instances in the same Availability Zone across two different AWS Regions",
-            "​\n\nDeploy the EC2 instances across different AWS Regions of the same Availability Zone",
-            "​\n\nDeploy the EC2 instances across different Availability Zones in the same AWS Region"
+            "​Deploy the EC2 instances in the same Availability Zone of an AWS Region",
+            "​Deploy the EC2 instances in the same Availability Zone across two different AWS Regions",
+            "​Deploy the EC2 instances across different AWS Regions of the same Availability Zone",
+            "​Deploy the EC2 instances across different Availability Zones in the same AWS Region"
         ],
         "explanation": [
             "Correct option:",
@@ -426,10 +426,10 @@
         "correct": "Question 19: ",
         "questionText": "Which AWS service can be used to automate code deployment to EC2 instances as well as on-premises instances?",
         "options": [
-            "​\n\nAWS CodePipeline",
-            "​\n\nAWS CodeDeploy",
-            "​\n\nAWS CodeCommit",
-            "​\n\nAWS CloudFormation"
+            "​AWS CodePipeline",
+            "​AWS CodeDeploy",
+            "​AWS CodeCommit",
+            "​AWS CloudFormation"
         ],
         "explanation": [
             "Correct option:",
@@ -449,10 +449,10 @@
         "correct": "Question 20: ",
         "questionText": "A research lab wants to optimize the caching capabilities for its scientific computations application running on EC2 instances. Which EC2 storage option is best suited for this use-case?",
         "options": [
-            "​\n\nAmazon EBS",
-            "​\n\nAmazon EFS",
-            "​\n\nAmazon EC2 Instance Store",
-            "​\n\nAmazon S3"
+            "​Amazon EBS",
+            "​Amazon EFS",
+            "​Amazon EC2 Instance Store",
+            "​Amazon S3"
         ],
         "explanation": [
             "Correct option:",
@@ -471,10 +471,10 @@
         "correct": "Question 21: ",
         "questionText": "An IT company has a hybrid cloud architecture and it wants to centralize the server logs for its EC2 instances and on-premises servers. Which of the following is the MOST effective for this use-case?",
         "options": [
-            "​\n\nUse AWS Lambda to send log data from EC2 instance as well as on-premises servers to CloudWatch Logs",
-            "​\n\nUse CloudTrail for the EC2 instance and CloudWatch Logs for the on-premises servers",
-            "​\n\nUse CloudWatch Logs for both the EC2 instance and the on-premises servers",
-            "​\n\nUse CloudWatch Logs for the EC2 instance and CloudTrail for the on-premises servers"
+            "​Use AWS Lambda to send log data from EC2 instance as well as on-premises servers to CloudWatch Logs",
+            "​Use CloudTrail for the EC2 instance and CloudWatch Logs for the on-premises servers",
+            "​Use CloudWatch Logs for both the EC2 instance and the on-premises servers",
+            "​Use CloudWatch Logs for the EC2 instance and CloudTrail for the on-premises servers"
         ],
         "explanation": [
             "Correct option:",
@@ -496,10 +496,10 @@
         "correct": "Question 22: ",
         "questionText": "A financial services company must meet compliance requirements that mandate storing multiple copies of data in geographically distant locations. As the company uses S3 as its main storage service, which of the following represents the MOST resource-efficient solution for this use-case?",
         "options": [
-            "​\n\nRun a daily job on an EC2 instance to copy objects into another Region",
-            "​\n\nUse Cross-Region replication (CRR) to replicate data between distant AWS Regions",
-            "​\n\nUse Same-Region replication (SRR) to replicate data between distant AWS Regions",
-            "​\n\nFor every new object, trigger a lambda function to write data into a bucket in another AWS Region"
+            "​Run a daily job on an EC2 instance to copy objects into another Region",
+            "​Use Cross-Region replication (CRR) to replicate data between distant AWS Regions",
+            "​Use Same-Region replication (SRR) to replicate data between distant AWS Regions",
+            "​For every new object, trigger a lambda function to write data into a bucket in another AWS Region"
         ],
         "explanation": [
             "Correct option:",
@@ -521,11 +521,11 @@
         "correct": "Question 23: ",
         "questionText": "AWS Trusted Advisor analyzes your AWS environment and provides best practice recommendations for which of the following categories? (Select two)?",
         "options": [
-            "​\n\nService Limits",
-            "​\n\nElasticity",
-            "​\n\nCost Optimization",
-            "​\n\nDocumentation",
-            "​\n\nChange Management"
+            "​Service Limits",
+            "​Elasticity",
+            "​Cost Optimization",
+            "​Documentation",
+            "​Change Management"
         ],
         "explanation": [
             "Correct options:",
@@ -547,11 +547,11 @@
         "correct": "Question 24: ",
         "questionText": "Which AWS services support High Availability by default? (Select two)",
         "options": [
-            "​\n\nEFS",
-            "​\n\nRedshift",
-            "​\n\nEBS",
-            "​\n\nInstance Store",
-            "​\n\nDynamoDB"
+            "​EFS",
+            "​Redshift",
+            "​EBS",
+            "​Instance Store",
+            "​DynamoDB"
         ],
         "explanation": [
             "Correct options:",
@@ -575,10 +575,10 @@
         "correct": "Question 25: ",
         "questionText": "Which AWS service will you use to privately connect your VPC to Amazon S3?",
         "options": [
-            "​\n\nAWS Direct Connect",
-            "​\n\nVPC Endpoint Gateway",
-            "​\n\nAWS Transit Gateway",
-            "​\n\nAmazon API Gateway"
+            "​AWS Direct Connect",
+            "​VPC Endpoint Gateway",
+            "​AWS Transit Gateway",
+            "​Amazon API Gateway"
         ],
         "explanation": [
             "Correct option:",
@@ -603,10 +603,10 @@
         "correct": "Question 26: ",
         "questionText": "Which feature of AWS Cloud offers the ability to innovate faster and rapidly develop, test and launch software applications?",
         "options": [
-            "​\n\nAgility",
-            "​\n\nAbility to deploy globally in minutes",
-            "​\n\nElasticity",
-            "​\n\nCost savings"
+            "​Agility",
+            "​Ability to deploy globally in minutes",
+            "​Elasticity",
+            "​Cost savings"
         ],
         "explanation": [
             "Correct option:",
@@ -627,10 +627,10 @@
         "correct": "Question 27: ",
         "questionText": "Which AWS service protects your AWS account by monitoring malicious activity and detecting threats?",
         "options": [
-            "​\n\nGuardDuty",
-            "​\n\nCloudWatch",
-            "​\n\nTrusted Advisor",
-            "​\n\nCloudTrail"
+            "​GuardDuty",
+            "​CloudWatch",
+            "​Trusted Advisor",
+            "​CloudTrail"
         ],
         "explanation": [
             "Correct option:",
@@ -649,10 +649,10 @@
         "correct": "Question 28: ",
         "questionText": "An IT company has deployed a static website on S3, but the website is still inaccessible. As a Cloud Practioner, which of the following solutions would you suggest to address this issue?",
         "options": [
-            "​\n\nEnable S3 versioning",
-            "​\n\nFix the S3 bucket policy",
-            "​\n\nEnable S3 replication",
-            "​\n\nDisable S3 encryption"
+            "​Enable S3 versioning",
+            "​Fix the S3 bucket policy",
+            "​Enable S3 replication",
+            "​Disable S3 encryption"
         ],
         "explanation": [
             "Correct options:",
@@ -675,10 +675,10 @@
         "correct": "Question 29: ",
         "questionText": "As a Cloud Practitioner, which S3 storage class would you recommend for data archival?",
         "options": [
-            "​\n\nS3 One Zone-IA",
-            "​\n\nS3 Intelligent-Tiering",
-            "​\n\nS3 Glacier",
-            "​\n\nS3 Standard"
+            "​S3 One Zone-IA",
+            "​S3 Intelligent-Tiering",
+            "​S3 Glacier",
+            "​S3 Standard"
         ],
         "explanation": [
             "Correct option:",
@@ -699,10 +699,10 @@
         "correct": "Question 30: ",
         "questionText": "An e-commerce company uses AWS Cloud and would like to receive separate invoices for development and production environments. As a Cloud Practioner, which of the following solutions would you recommend for this use-case?",
         "options": [
-            "​\n\nUse AWS Cost Explorer to create separate invoices for development and production environments",
-            "​\n\nUse AWS Organizations to create separate invoices for development and production environments",
-            "​\n\nTag all resources in the AWS account as either \"development\" or \"production\". Then use the tags to create separate invoices",
-            "​\n\nCreate separate AWS accounts for development and production environments to receive separate invoices"
+            "​Use AWS Cost Explorer to create separate invoices for development and production environments",
+            "​Use AWS Organizations to create separate invoices for development and production environments",
+            "​Tag all resources in the AWS account as either \"development\" or \"production\". Then use the tags to create separate invoices",
+            "​Create separate AWS accounts for development and production environments to receive separate invoices"
         ],
         "explanation": [
             "Correct option:",
@@ -721,11 +721,11 @@
         "correct": "Question 31: ",
         "questionText": "A customer is running a comparative study of pricing models of Amazon EFS and Amazon EBS that are used with the Amazon EC2 instances that host the application. Which of the following statements are correct regarding this use-case? (Select two)",
         "options": [
-            "​\n\nYou will pay a fee each time you read from or write data stored on the EFS - Infrequent Access storage class",
-            "​\n\nAmazon EC2 data transfer charges will apply for all EBS direct APIs for Snapshots",
-            "​\n\nWith AWS Backup, you pay only for the amount of EFS backup storage you use in a month, you need not pay for restoring this data",
-            "​\n\nAmazon EBS Snapshot storage pricing is based on the amount of space your data consumes in EBS",
-            "​\n\nAmazon EBS Snapshots are stored incrementally, which means you are billed only for the changed blocks stored"
+            "​You will pay a fee each time you read from or write data stored on the EFS - Infrequent Access storage class",
+            "​Amazon EC2 data transfer charges will apply for all EBS direct APIs for Snapshots",
+            "​With AWS Backup, you pay only for the amount of EFS backup storage you use in a month, you need not pay for restoring this data",
+            "​Amazon EBS Snapshot storage pricing is based on the amount of space your data consumes in EBS",
+            "​Amazon EBS Snapshots are stored incrementally, which means you are billed only for the changed blocks stored"
         ],
         "explanation": [
             "Correct options:",
@@ -744,11 +744,11 @@
         "correct": "Question 32: ",
         "questionText": "Which of the following AWS services offer block-level storage? (Select two)",
         "options": [
-            "​\n\nInstance Store",
-            "​\n\nEBS",
-            "​\n\nECS",
-            "​\n\nS3",
-            "​\n\nEFS"
+            "​Instance Store",
+            "​EBS",
+            "​ECS",
+            "​S3",
+            "​EFS"
         ],
         "explanation": [
             "Correct options:",
@@ -767,10 +767,10 @@
         "correct": "Question 33: ",
         "questionText": "A multi-national company has its business-critical data stored on a fleet of Amazon EC2 instances, in various countries, configured in region-specific compliance rules. To demonstrate compliance, the company needs to submit historical configurations on a regular basis. Which AWS service is best suited for this requirement?",
         "options": [
-            "​\n\nAmazon GuardDuty",
-            "​\n\nAmazon Macie",
-            "​\n\nAWS Config",
-            "​\n\nAWS CloudTrail"
+            "​Amazon GuardDuty",
+            "​Amazon Macie",
+            "​AWS Config",
+            "​AWS CloudTrail"
         ],
         "explanation": [
             "Correct option:",
@@ -791,10 +791,10 @@
         "correct": "Question 34: ",
         "questionText": "Which AWS Route 53 routing policy would you use when you want to route your traffic in an active-passive configuration?",
         "options": [
-            "​\n\nWeighted routing policy",
-            "​\n\nFailover routing policy",
-            "​\n\nSimple routing policy",
-            "​\n\nLatency routing policy"
+            "​Weighted routing policy",
+            "​Failover routing policy",
+            "​Simple routing policy",
+            "​Latency routing policy"
         ],
         "explanation": [
             "Correct option:",
@@ -814,11 +814,11 @@
         "correct": "Question 35: ",
         "questionText": "AWS Lambda pricing is based on which of the following criteria? (Select two)",
         "options": [
-            "​\n\nNumber of requests for the lambda function",
-            "​\n\nThe language runtime of the lambda function",
-            "​\n\nThe size of the deployment package for the lambda function",
-            "​\n\nThe time it takes for the lambda function to execute",
-            "​\n\nThe number of lines of code for the lambda function"
+            "​Number of requests for the lambda function",
+            "​The language runtime of the lambda function",
+            "​The size of the deployment package for the lambda function",
+            "​The time it takes for the lambda function to execute",
+            "​The number of lines of code for the lambda function"
         ],
         "explanation": [
             "Correct options:",
@@ -838,11 +838,11 @@
         "correct": "Question 36: ",
         "questionText": "An IT company is on a cost-optimization spree and wants to identify all EC2 instances that are under-utilized. Which AWS services can be used to address this use-case? (Select two)",
         "options": [
-            "​\n\nAWS Trusted Advisor",
-            "​\n\nAWS Budgets",
-            "​\n\nAmazon CloudWatch",
-            "​\n\nAWS Cost and Usage Reports",
-            "​\n\nAWS Cost Explorer"
+            "​AWS Trusted Advisor",
+            "​AWS Budgets",
+            "​Amazon CloudWatch",
+            "​AWS Cost and Usage Reports",
+            "​AWS Cost Explorer"
         ],
         "explanation": [
             "Correct option:",
@@ -867,10 +867,10 @@
         "correct": "Question 37: ",
         "questionText": "An organization maintains separate VPCs for each of its departments. With expanding business, the organization now wants to connect all VPCs for better departmental collaboration. Which AWS service will help the organization tackle the issue effectively?",
         "options": [
-            "​\n\nAWS Transit Gateway",
-            "​\n\nVPC Peering",
-            "​\n\nAWS Direct Connect",
-            "​\n\nSite to Site VPN"
+            "​AWS Transit Gateway",
+            "​VPC Peering",
+            "​AWS Direct Connect",
+            "​Site to Site VPN"
         ],
         "explanation": [
             "Correct option:",
@@ -890,10 +890,10 @@
         "correct": "Question 38: ",
         "questionText": "An AWS hardware failure has impacted one of your EBS volumes. Which AWS service will alert you of the affected resources and provide a remedial action?",
         "options": [
-            "​\n\nAWS Config",
-            "​\n\nAmazon GuardDuty",
-            "​\n\nAWS Personal Health Dashboard",
-            "​\n\nAWS Trusted Advisor"
+            "​AWS Config",
+            "​Amazon GuardDuty",
+            "​AWS Personal Health Dashboard",
+            "​AWS Trusted Advisor"
         ],
         "explanation": [
             "Correct option:",
@@ -911,11 +911,11 @@
         "correct": "Question 39: ",
         "questionText": "Which of the following statements are CORRECT regarding Security Groups and Network Access Control Lists (NACLs)? (Select two)",
         "options": [
-            "​\n\nA Security Group is stateless, that is, the return traffic must be explicitly allowed",
-            "​\n\nA Security Group contains a numbered list of rules and evaluates these rules in the increasing order while deciding whether to allow the traffic",
-            "​\n\nA NACL contains a numbered list of rules and evaluates these rules in the increasing order while deciding whether to allow the traffic",
-            "​\n\nA Security Group is stateful, that is, it automatically allows the return traffic",
-            "​\n\nA NACL is stateful, that is, it automatically allows the return traffic"
+            "​A Security Group is stateless, that is, the return traffic must be explicitly allowed",
+            "​A Security Group contains a numbered list of rules and evaluates these rules in the increasing order while deciding whether to allow the traffic",
+            "​A NACL contains a numbered list of rules and evaluates these rules in the increasing order while deciding whether to allow the traffic",
+            "​A Security Group is stateful, that is, it automatically allows the return traffic",
+            "​A NACL is stateful, that is, it automatically allows the return traffic"
         ],
         "explanation": [
             "Correct options:",
@@ -939,10 +939,10 @@
         "correct": "Question 40: ",
         "questionText": "Compared to the On-demand prices, what is the highest possible discount offered for reserved instances?",
         "options": [
-            "​\n\n72",
-            "​\n\n40",
-            "​\n\n90",
-            "​\n\n50"
+            "​72",
+            "​40",
+            "​90",
+            "​50"
         ],
         "explanation": [
             "Correct option:",
@@ -961,10 +961,10 @@
         "correct": "Question 41: ",
         "questionText": "A cyber-security agency uses AWS Cloud and wants to carry out security assessments on their own AWS infrastructure without any prior approval from AWS. Which of the following describes/facilitates this practice?",
         "options": [
-            "​\n\nPenetration Testing",
-            "​\n\nAWS Secrets Manager",
-            "​\n\nNetwork Stress Testing",
-            "​\n\nAmazon Inspector"
+            "​Penetration Testing",
+            "​AWS Secrets Manager",
+            "​Network Stress Testing",
+            "​Amazon Inspector"
         ],
         "explanation": [
             "Correct option:",
@@ -982,10 +982,10 @@
         "correct": "Question 42: ",
         "questionText": "A startup runs its proprietary application on docker containers. As a Cloud Practitioner, which AWS service would you recommend so that the startup can run containers and still have access to the underlying servers?",
         "options": [
-            "​\n\nAmazon Elastic Container Service (Amazon ECS)",
-            "​\n\nAWS Lambda",
-            "​\n\nAWS Fargate",
-            "​\n\nAmazon Elastic Container Registry (ECR)"
+            "​Amazon Elastic Container Service (Amazon ECS)",
+            "​AWS Lambda",
+            "​AWS Fargate",
+            "​Amazon Elastic Container Registry (ECR)"
         ],
         "explanation": [
             "Correct option:",
@@ -1003,10 +1003,10 @@
         "correct": "Question 43: ",
         "questionText": "Which pillar of the AWS Well-Architected Framework recommends monitoring your application's performance?",
         "options": [
-            "​\n\nOperational Excellence",
-            "​\n\nSecurity",
-            "​\n\nReliability",
-            "​\n\nPerformance Efficiency"
+            "​Operational Excellence",
+            "​Security",
+            "​Reliability",
+            "​Performance Efficiency"
         ],
         "explanation": [
             "Correct option:",
@@ -1027,10 +1027,10 @@
         "correct": "Question 44: ",
         "questionText": "Which AWS service can be used as an in-memory database with high-performance and low latency?",
         "options": [
-            "​\n\nAmazon Athena",
-            "​\n\nAmazon ElastiCache",
-            "​\n\nAmazon DynamoDB",
-            "​\n\nAmazon RDS"
+            "​Amazon Athena",
+            "​Amazon ElastiCache",
+            "​Amazon DynamoDB",
+            "​Amazon RDS"
         ],
         "explanation": [
             "Correct option:",
@@ -1049,11 +1049,11 @@
         "correct": "Question 45: ",
         "questionText": "Which of the following AWS services specialize in data migration from on-premises to AWS Cloud? (Select two)",
         "options": [
-            "​\n\nDirect Connect",
-            "​\n\nTransit Gateway",
-            "​\n\nSite-to-Site VPN",
-            "​\n\nDatabase Migration Service",
-            "​\n\nSnowball"
+            "​Direct Connect",
+            "​Transit Gateway",
+            "​Site-to-Site VPN",
+            "​Database Migration Service",
+            "​Snowball"
         ],
         "explanation": [
             "Correct options:",
@@ -1076,10 +1076,10 @@
         "correct": "Question 46: ",
         "questionText": "Which of the following is the best way to protect your data from accidental deletion on Amazon S3?",
         "options": [
-            "​\n\nS3 Transfer Acceleration",
-            "​\n\nS3 Versioning",
-            "​\n\nS3 Storage Classes",
-            "​\n\nS3 lifecycle configuration"
+            "​S3 Transfer Acceleration",
+            "​S3 Versioning",
+            "​S3 Storage Classes",
+            "​S3 lifecycle configuration"
         ],
         "explanation": [
             "Correct option:",
@@ -1099,11 +1099,11 @@
         "correct": "Question 47: ",
         "questionText": "According to the AWS Shared Responsibility Model, which of the following are responsibilities of the customer (select 2)?",
         "options": [
-            "​\n\nCompliance validation of Cloud infrastructure",
-            "​\n\nEnabling data encryption of data stored in S3 buckets",
-            "​\n\nOperating system patches and updates of an EC2 instance",
-            "​\n\nEnsuring AWS employees cannot access customer data",
-            "​\n\nAWS Global Network Security"
+            "​Compliance validation of Cloud infrastructure",
+            "​Enabling data encryption of data stored in S3 buckets",
+            "​Operating system patches and updates of an EC2 instance",
+            "​Ensuring AWS employees cannot access customer data",
+            "​AWS Global Network Security"
         ],
         "explanation": [
             "Correct options:",
@@ -1124,10 +1124,10 @@
         "correct": "Question 48: ",
         "questionText": "An AWS user is trying to launch an EC2 instance in a given region. What is the region-specific constraint that the Amazon Machine Image (AMI) must meet so that it can be used for this EC2 instance?",
         "options": [
-            "​\n\nAn AMI is a global entity, so the region is not applicable",
-            "​\n\nYou can use an AMI from a different region, but it degrades the performance of the EC2 instance",
-            "​\n\nYou must use an AMI from the same region as that of the EC2 instance. The region of the AMI has no bearing on the performance of the EC2 instance",
-            "​\n\nYou should use an AMI from the same region, as it improves the performance of the EC2 instance"
+            "​An AMI is a global entity, so the region is not applicable",
+            "​You can use an AMI from a different region, but it degrades the performance of the EC2 instance",
+            "​You must use an AMI from the same region as that of the EC2 instance. The region of the AMI has no bearing on the performance of the EC2 instance",
+            "​You should use an AMI from the same region, as it improves the performance of the EC2 instance"
         ],
         "explanation": [
             "Correct option:",
@@ -1148,10 +1148,10 @@
         "correct": "Question 49: ",
         "questionText": "Under the AWS Shared Responsibility Model, which of the following is the responsibility of a customer regarding lambda functions?",
         "options": [
-            "​\n\nMaintain versions of a lambda function",
-            "​\n\nConfigure networking infrastructure for the lambda functions",
-            "​\n\nPatch underlying OS for the lambda function infrastructure",
-            "​\n\nMaintain all runtime environments for lambda functions"
+            "​Maintain versions of a lambda function",
+            "​Configure networking infrastructure for the lambda functions",
+            "​Patch underlying OS for the lambda function infrastructure",
+            "​Maintain all runtime environments for lambda functions"
         ],
         "explanation": [
             "Correct option:",
@@ -1173,10 +1173,10 @@
         "correct": "Question 50: ",
         "questionText": "Which S3 storage class offers the lowest availability?",
         "options": [
-            "​\n\nS3 Glacier",
-            "​\n\nS3 Intelligent-Tiering",
-            "​\n\nS3 Standard",
-            "​\n\nS3 One Zone-IA"
+            "​S3 Glacier",
+            "​S3 Intelligent-Tiering",
+            "​S3 Standard",
+            "​S3 One Zone-IA"
         ],
         "explanation": [
             "Correct option:",
@@ -1195,10 +1195,10 @@
         "correct": "Question 51: ",
         "questionText": "Which AWS Support plan provides general architectural guidance on how services can be used for various use-cases, workloads, or applications?",
         "options": [
-            "​\n\nEnterprise",
-            "​\n\nBusiness",
-            "​\n\nDeveloper",
-            "​\n\nBasic"
+            "​Enterprise",
+            "​Business",
+            "​Developer",
+            "​Basic"
         ],
         "explanation": [
             "Correct option:",
@@ -1217,11 +1217,11 @@
         "correct": "Question 52: ",
         "questionText": "Which of the following statements are CORRECT about the AWS Auto Scaling group? (Select two)",
         "options": [
-            "​\n\nAuto Scaling group scales up and upgrades to a more powerful EC2 instance to match an increase in demand",
-            "​\n\nAuto Scaling group scales out and adds more number of EC2 instances to match an increase in demand",
-            "​\n\nAuto Scaling group scales in and reduces the number of EC2 instances to match a decrease in demand",
-            "​\n\nAuto Scaling group scales down and downgrades to a less powerful EC2 instance to match a decrease in demand",
-            "​\n\nAuto Scaling group scales down and reduces the number of EC2 instances to match a decrease in demand"
+            "​Auto Scaling group scales up and upgrades to a more powerful EC2 instance to match an increase in demand",
+            "​Auto Scaling group scales out and adds more number of EC2 instances to match an increase in demand",
+            "​Auto Scaling group scales in and reduces the number of EC2 instances to match a decrease in demand",
+            "​Auto Scaling group scales down and downgrades to a less powerful EC2 instance to match a decrease in demand",
+            "​Auto Scaling group scales down and reduces the number of EC2 instances to match a decrease in demand"
         ],
         "explanation": [
             "Correct option:",
@@ -1242,10 +1242,10 @@
         "correct": "Question 53: ",
         "questionText": "A research group wants to provision an EC2 instance for a flexible application that can be interrupted. As a Cloud Practitioner, which of the following would you recommend as the MOST cost-optimal option?",
         "options": [
-            "​\n\nOn-Demand Instance",
-            "​\n\nReserved Instance",
-            "​\n\nDedicated Host",
-            "​\n\nSpot Instance"
+            "​On-Demand Instance",
+            "​Reserved Instance",
+            "​Dedicated Host",
+            "​Spot Instance"
         ],
         "explanation": [
             "Correct option:",
@@ -1263,10 +1263,10 @@
         "correct": "Question 54: ",
         "questionText": "Which AWS service can help you forecast your next AWS bill for the services you use?",
         "options": [
-            "​\n\nAWS Billing and Cost Management",
-            "​\n\nAWS Total Cost of Ownership (TCO) Calculator",
-            "​\n\nAWS Simple Monthly Calculator",
-            "​\n\nAWS Cost Explorer"
+            "​AWS Billing and Cost Management",
+            "​AWS Total Cost of Ownership (TCO) Calculator",
+            "​AWS Simple Monthly Calculator",
+            "​AWS Cost Explorer"
         ],
         "explanation": [
             "Correct option:",
@@ -1286,10 +1286,10 @@
         "correct": "Question 55: ",
         "questionText": "What is the primary benefit of deploying an RDS database in a Read Replica configuration?",
         "options": [
-            "​\n\nRead Replica protects the database from a regional failure",
-            "​\n\nRead Replica reduces database usage costs",
-            "​\n\nRead Replica improves database scalability",
-            "​\n\nRead Replica enhances database availability"
+            "​Read Replica protects the database from a regional failure",
+            "​Read Replica reduces database usage costs",
+            "​Read Replica improves database scalability",
+            "​Read Replica enhances database availability"
         ],
         "explanation": [
             "Correct option:",
@@ -1310,10 +1310,10 @@
         "correct": "Question 56: ",
         "questionText": "Which AWS service can be used to execute code triggered by new files being uploaded to S3?",
         "options": [
-            "​\n\nSQS",
-            "​\n\nECS",
-            "​\n\nEC2",
-            "​\n\nLambda"
+            "​SQS",
+            "​ECS",
+            "​EC2",
+            "​Lambda"
         ],
         "explanation": [
             "Correct option:",
@@ -1333,10 +1333,10 @@
         "correct": "Question 57: ",
         "questionText": "Which AWS service can be used for online analytical processing?",
         "options": [
-            "​\n\nAmazon Redshift",
-            "​\n\nAmazon RDS",
-            "​\n\nAmazon DynamoDB",
-            "​\n\nAmazon ElastiCache"
+            "​Amazon Redshift",
+            "​Amazon RDS",
+            "​Amazon DynamoDB",
+            "​Amazon ElastiCache"
         ],
         "explanation": [
             "Correct option:",
@@ -1355,10 +1355,10 @@
         "correct": "Question 58: ",
         "questionText": "Which AWS service will you use if you have to move large volumes of on-premises data to AWS Cloud from a remote location with limited bandwidth?",
         "options": [
-            "​\n\nAWS Direct Connect",
-            "​\n\nAWS Snowball",
-            "​\n\nAWS Virtual Private Network (VPN)",
-            "​\n\nAWS Transit Gateway"
+            "​AWS Direct Connect",
+            "​AWS Snowball",
+            "​AWS Virtual Private Network (VPN)",
+            "​AWS Transit Gateway"
         ],
         "explanation": [
             "Correct option:",
@@ -1376,10 +1376,10 @@
         "correct": "Question 59: ",
         "questionText": "Which pillar of the AWS Well-Architected Framework recommends maintaining infrastructure as code?",
         "options": [
-            "​\n\nSecurity",
-            "​\n\nCost Optimization",
-            "​\n\nPerformance Efficiency",
-            "​\n\nOperational Excellence"
+            "​Security",
+            "​Cost Optimization",
+            "​Performance Efficiency",
+            "​Operational Excellence"
         ],
         "explanation": [
             "Correct option:",
@@ -1399,10 +1399,10 @@
         "correct": "Question 60: ",
         "questionText": "Amazon CloudWatch billing metric data is stored in which AWS Region?",
         "options": [
-            "​\n\nIn the AWS Region where the AWS account is created",
-            "​\n\nUS West (N. California) - us-west-1",
-            "​\n\nIn the AWS Region where the AWS resource is provisioned",
-            "​\n\nUS East (N. Virginia) - us-east-1"
+            "​In the AWS Region where the AWS account is created",
+            "​US West (N. California) - us-west-1",
+            "​In the AWS Region where the AWS resource is provisioned",
+            "​US East (N. Virginia) - us-east-1"
         ],
         "explanation": [
             "Correct option:",
@@ -1421,10 +1421,10 @@
         "correct": "Question 61: ",
         "questionText": "Enterprise environments are often a mix of cloud, on-premises data centers, and edge locations. Which Cloud deployment model does this refer to?",
         "options": [
-            "​\n\nPrivate Cloud",
-            "​\n\nOn-premises",
-            "​\n\nPublic Cloud",
-            "​\n\nHybrid Cloud"
+            "​Private Cloud",
+            "​On-premises",
+            "​Public Cloud",
+            "​Hybrid Cloud"
         ],
         "explanation": [
             "Correct option:",
@@ -1443,12 +1443,12 @@
         "correct": "Question 62: ",
         "questionText": "Which budget types can be created under AWS Budgets (Select three)?",
         "options": [
-            "​\n\nUsage budget",
-            "​\n\nReservation budget",
-            "​\n\nSoftware budget",
-            "​\n\nHardware budget",
-            "​\n\nResource budget",
-            "​\n\nCost budget"
+            "​Usage budget",
+            "​Reservation budget",
+            "​Software budget",
+            "​Hardware budget",
+            "​Resource budget",
+            "​Cost budget"
         ],
         "explanation": [
             "Correct options:",
@@ -1468,10 +1468,10 @@
         "correct": "Question 63: ",
         "questionText": "A company has a static website hosted on an S3 bucket in an AWS Region in Asia. Although most of its users are in Asia, now it wants to drive growth globally. How can it improve the global performance of its static website?",
         "options": [
-            "​\n\nUse S3 Transfer Acceleration to improve the performance of your website",
-            "​\n\nUse CloudFront to improve the performance of your website",
-            "​\n\nUse CloudWatch to improve the performance of your website",
-            "​\n\nUse WAF to improve the performance of your website"
+            "​Use S3 Transfer Acceleration to improve the performance of your website",
+            "​Use CloudFront to improve the performance of your website",
+            "​Use CloudWatch to improve the performance of your website",
+            "​Use WAF to improve the performance of your website"
         ],
         "explanation": [
             "Correct option:",
@@ -1490,11 +1490,11 @@
         "correct": "Question 64: ",
         "questionText": "Which of the following AWS services are regional in scope? (Select two)",
         "options": [
-            "​\n\nAmazon Rekognition",
-            "​\n\nAWS WAF",
-            "​\n\nAWS Lambda",
-            "​\n\nAWS Identity and Access Management (IAM)",
-            "​\n\nAmazon CloudFront"
+            "​Amazon Rekognition",
+            "​AWS WAF",
+            "​AWS Lambda",
+            "​AWS Identity and Access Management (IAM)",
+            "​Amazon CloudFront"
         ],
         "explanation": [
             "Correct options:",
@@ -1514,11 +1514,11 @@
         "correct": "Question 65: ",
         "questionText": "Which of the following are recommended best practices for AWS IAM service? (Select two)",
         "options": [
-            "​\n\nGrant maximum privileges to avoid assigning privileges again",
-            "​\n\nEnable MFA for all users",
-            "​\n\nShare AWS account root user access keys with other administrators",
-            "​\n\nCreate a minimum number of accounts and share these account credentials among employees",
-            "​\n\nRotate credentials regularly"
+            "​Grant maximum privileges to avoid assigning privileges again",
+            "​Enable MFA for all users",
+            "​Share AWS account root user access keys with other administrators",
+            "​Create a minimum number of accounts and share these account credentials among employees",
+            "​Rotate credentials regularly"
         ],
         "explanation": [
             "Correct option:",
